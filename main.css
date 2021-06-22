@@ -33,6 +33,7 @@ nav ul {
     display: inline-block;
     margin-left:50px;
 }
+
 nav ul li{
     float:left;
     margin:20px 20px;
@@ -249,4 +250,9 @@ color:rgb(109, 107, 107);
     .icon{
         padding:40px 20px;
     }
+}
+
+@media screen and (max-width:320px)
+    {   .icons a{
+        margin:10px 20px;
 }
